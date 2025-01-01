@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>aboutme</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lilita+One&family=Lobster&family=Noto+Sans+SC:wght@100..900&family=Pacifico&family=Sen:wght@400..800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="#">HOME</a></li>
+        <li><img src="./about (1).png" alt="" /><a href="#">ABOUT</a></li>
+        <li><img src="./protfolio.png" alt="" /><a href="#">PORTFOLIO</a></li>
+        <li><img src="./contact.png" alt="" /><a href="#">CONTACT</a></li>
+      </ul>
+      <span id="search">
+        <span>
+          <img src="./search.png" alt="" />
+        </span>
+      </span>
+    </nav>
+
+    <section id="home">
+      <h1>MY WEBSITE LOGO</h1>
+    </section>
+    <div class="grid">
+      <section id="about">
+        <h1>ABOUT ME</h1>
+        <h5>I love photographu</h5>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas qui id
+          error delectus! Voluptates corporis porro atque minima non pariatur
+          asperiores aliquid odit amet ex consectetur commodi doloremque
+          assumenda aut nulla, doloribus provident laudantium minus cumque!
+          Labore eos voluptatem tenetur beatae amet dolore corporis. Corporis,
+          culpa quisquam. Blanditiis veniam quasi vitae nobis minima numquam
+          quaerat quam animi tempore doloribus, est neque? Iste sequi quas
+          labore accusantium, dolores eum deleniti culpa iusto pariatur deserunt
+          voluptatem asperiores ullam ipsam eveniet atque modi consequatur
+          repellendus unde ab itaque magnam quos maiores voluptate? Facere, ad.
+          Optio ut tempora minus accusamus quia nesciunt magni! Inventore?
+        </p>
+      </section>
+
+      <section id="profile">
+        <div class="part">
+          <h3>My Name</h3>
+          <img src="./logo.jpg" alt="" />
+        </div>
+        <div class="part">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit,
+            voluptas doloribus harum perspiciatis architecto voluptate. Dolore
+            quaerat id nulla ullam libero deleniti praesentium, commodi fugit
+            magni maiores asperiores dolores animi unde! Aperiam qui voluptas
+            distinctio reprehenderit, unde consequatur hic reiciendis deleniti
+            ipsam veritatis quas. Ab id eaque quam animi in debitis repellendus
+            libero totam eum placeat quibusdam ipsa quae nostrum modi delectus
+            exercitationem minima esse tenetur eveniet, deserunt architecto
+            excepturi. Tempora rem commodi dolores voluptates minus sunt
+            doloribus, eveniet dolorem.
+          </p>
+        </div>
+      </section>
+
+
+
+      <section id="skills">
+        <h2>I'm really good at:</h2>
+        <div class="partofskills">
+          <span class="name"></span>
+          <span class="per">
+            <span class="insideofper">
+              <p>90%</p>
+            </span>
+          </span>
+        </div>
+        <div class="partofskills">
+          <span class="name"></span>
+          <span class="per">
+            <span class="insideofper1">
+              <p>80%</p>
+            </span>
+          </span>
+        </div>
+        <div class="partofskills">
+          <span class="name"></span>
+          <span class="per">
+            <span class="insideofper2">
+              <p>60%</p>
+            </span>
+          </span>
+        </div>
+      </section>
+    </div>
+
+    <script>
+      window.addEventListener("scroll", function () {
+        var navbar = document.querySelector("nav");
+        if (window.scrollY > 50) {
+          navbar.classList.add("scrolled");
+        } else {
+          navbar.classList.remove("scrolled");
+        }
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+  <style>
+    .profile{
+        border-radius: 50%;
+        width:200px;
+        height:200px;
+    }
+    .cant{
+        background-color: rgb(207, 206, 206)
+    }
+  </style>
+</head>
+<body class="bg-black text-white">
+    <div class="cant bg-white h-180 border text-white">
+        <div class="text-black bg-white mt-12 rounded-md shadow w-[700px] h-[600px] m-auto flex flex-col justify-center items-center">
+            <img  class="profile rounded-full" src="https://static.vecteezy.com/system/resources/previews/024/183/502/non_2x/male-avatar-portrait-of-a-young-man-with-a-beard-illustration-of-male-character-in-modern-color-style-vector.jpg" alt="">
+            <h1 class="text-2xl font-bold">Hi! I'm Rizwan Ahmed</h1>
+            <h1 class="p-3">FIND OUT IN SECONDS</h1>
+            <h1 class="text-[40px] font-bold">Let's get your solar setimate</h1>
+            <br>
+            <input class="p-3 bg-blue-100 rounded-full w-[90%] " type="text" name="" id="" placeholder="Address">
+            <br>
+            <button class="bg-red-300 px-7 py-2 rounded-md font-bold hover:bg-red-400 duration-500">Submit</button>
+        </div>
+    </div>
+    <footer
+    class="flex flex-col">
+    <div class=" h-110 felx fex-col justify-around md:flex">
+        <div class=" w-1/4 "></div>
+        <div class="w-1/3 flex flex-col justify-around  py-11 items-start gap-2 overflow-hidden">
+            <img width="72px" src="https://www.nasa.gov/wp-content/themes/nasa/assets/images/nasa-logo.svg" alt="">
+            <br>
+            <h1 class="text-2xl font-bold">National Aeronautics and Space Administration</h1>
+            <h1 class="opacity-52">NASA explores the unknown in air and space, innovates for the benefit of humanity, and inspires the world through discovery.</h1>
+            <h1>About NASA's Mission</h1>
+        </div>
+        <div class=" w-1/20 "></div>
+
+        <div class="w-1/4 flex flex-col justify-around items-start py-30">
+            <h1>Home</h1>
+            <h1>News & Events</h1>
+            <h1>Multimedia</h1>
+            <div>NASA+ </div>
+        </div>
+        <div class=" w-1/4 flex flex-col justify-around items-start py-30">
+            <h1>Home</h1>
+            <h1>News & Events</h1>
+            <h1>Multimedia</h1>
+            <div>NASA+ </div>
+        </div>
+        <div class=" w-1/4 flex flex-col justify-around items-start py-30">
+            <h1>Home</h1>
+            <h1>News & Events</h1>
+            <h1>Multimedia</h1>
+            <div>NASA+</div>
+        </div>
+        <div class=" w-1/4 flex flex-col justify-around items-start py-30">
+            <h1>Follow NASA</h1>
+            <span class="border flex">
+                <img src="xmlns="https:www.w3.org/2000/svg"" alt="">
+            </span>
+            <h1>News & Events</h1>
+            <h1>Multimedia</h1>
+        </div>
+        <div class=" w-1/10 "></div>
+
+    </div>
+   
+
+ 
+ 
+
+ 
+
+
+ 
+ 
+
+
+
+ 
+
+    <div class="border-t w-[80%] m-auto flex flex-wrap justify-around items-start pt-8 opacity-52">
+        <div>Sitemap</div>
+        <div>For Media</div>
+        <div>FOIA</div>
+        <div>
+            No FEAR Act</div>
+        <div>Office of the IG</div>
+        <div>Budget & Annual Reports</div>
+        <div> 
+            Agency Financial Reports</div>
+        <div>
+            Contact NASA</div>
+        <div>
+            Accessibility</div>
+    
+    </div>
+    <div class=" w-[80%] m-auto flex flex-wrap justify-around items-center pb-10 opacity-52">
+        <div>Page Last Updated:</div>
+        <div>
+            Feb 14, 2025</div>
+        <div> 
+            Page Editor:</div>
+        <div>Gary Daines</div>
+        <div>Responsible NASA Official:</div>
+        <div>
+            Abigail Bowman</div>
+     
+    </div>
+</footer>
+</body>
+</html>

@@ -1,0 +1,52 @@
+.red1{
+    width: 60px;
+    height: 60px;
+    background-color: red;
+    border-radius: 50%;
+}
+.red2{
+    border:  1px solid gray;
+
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+}
+
+
+
+.y1{
+    width: 60px;
+    height: 60px;
+    background-color: rgb(242, 255, 0);
+    border-radius: 50%;
+}
+
+
+.y2{
+    width: 60px;
+    height: 60px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    border:  1px solid gray;
+
+}
+
+
+
+
+
+
+.g1{
+    width: 60px;
+    height: 60px;
+    background-color: rgb(137, 139, 28);
+    border-radius: 50%;
+}
+.g2{
+    border:  1px solid gray;
+    width: 60px;
+    height: 60px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+}

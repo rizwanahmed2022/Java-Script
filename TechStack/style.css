@@ -1,0 +1,134 @@
+.navbarr {
+  z-index: 10;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 0;
+  width: 100%;
+  position: fixed;
+  overflow: hidden;
+  background-color: white; /* Background color applied */
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  transition: height 0.5s ease; /* Smooth height transitions */
+  padding: 0 2.5rem;
+}
+
+.navside {
+  background-color: #ffffff; /* Tailwind bg-red-300 */
+  width: 26%; /* Tailwind w-[40%] */
+  height: 100%; /* Tailwind h-full */
+  position: fixed; /* Tailwind fixed */
+  left: 0; /* Tailwind left-0 */
+  top: 0; /* Tailwind top-0 */
+  transition: width 1.51s ease;
+  overflow: hidden;
+  z-index: 102;
+  box-shadow: 2px 0px 32px 1px rgba(0, 0, 0, 0.493);
+}
+.navside2 {
+  border: 1px solid; /* Apply a border */
+  background-color: #ffffff; /* Tailwind bg-red-300 */
+  width: 0%; /* Tailwind w-[40%] */
+  height: 100%; /* Tailwind h-full */
+  position: fixed; /* Tailwind fixed */
+  left: 0; /* Tailwind left-0 */
+  top: 0; /* Tailwind top-0 */
+}
+
+.cross {
+  z-index: 500;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 2s ease;
+  display: none;
+}
+
+.tog {
+  z-index: 200;
+
+  opacity: 1;
+  pointer-events: auto;
+  transition: opacity 2s ease;
+}
+.tog2 {
+  z-index: 300;
+  opacity: 1;
+  pointer-events: auto;
+  transition: opacity 0.4s ease-in-out, backdrop-filter 0.4s ease-in-out;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  right: 0;
+  top: 0;
+  display: flex;
+  justify-content: end;
+
+  /* Blur only the background */
+  background-color: rgba(255, 255, 255, 0.015); /* semi-transparent white */
+  backdrop-filter: blur(3px); /* blur intensity */
+  -webkit-backdrop-filter: blur(10px); /* Safari support */
+}
+
+.home {
+  background-color: black;
+  z-index: 1;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  overflow: hidden; /* Ensure no content spills outside the container */
+}
+
+#homepic {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: opacity 1s ease; /* Smooth fade effect over 1 second */
+  opacity: 1; /* Ensure the image is visible initially */
+}
+
+.home-cnotent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.407); /* Light transparent background */
+  display: flex; /* Use flexbox for alignment */
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+  text-align: center; /* Ensure text is centered */
+  padding: 20px; /* Add spacing inside the container */
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.2); /* Subtle shadow effect for depth */
+  font-family: Arial, sans-serif; /* Set a clean font */
+  color: #333; /* Neutral text color */
+  font-size: 18px; /* Adjust font size for readability */
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.animate-fadeInDown {
+  animation: fadeInDown 1s ease-out forwards;
+}
+
+@keyframes scrollPulse {
+  0%,
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  50% {
+    transform: translateY(10px);
+    opacity: 0.5;
+  }
+}
+.animate-scrollPulse {
+  animation: scrollPulse 2s infinite;
+}

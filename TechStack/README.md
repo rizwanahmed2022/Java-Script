@@ -25,6 +25,6 @@ A clean website with smooth scrolling navigation and interactive elements built 
 
 ## ⚡ Quick Start
 ```bash
-git clone [repo-url]
+git clone https://github.com/rizwanahmed2022/smit/tree/main/TechStack
 open index.html
 ```

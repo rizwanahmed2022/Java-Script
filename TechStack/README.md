@@ -22,6 +22,7 @@ A clean website with smooth scrolling navigation and interactive elements built 
 - HTML5
 - CSS3
 - JavaScript (ES6+)
+- Tailwind CSS
 
 ## ⚡ Quick Start
 ```bash

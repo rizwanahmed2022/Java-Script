@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+</head>
+<body>
+   
+<div class="flex  items-center justify-center p-8 py-13 mx-auto my-8 max-w-150 bg-gradient-to-br from-gray-900 to-black rounded-3xl shadow-2xl shadow-cyan-500/20 border border-cyan-500/30">
+  <div class="flex items-end space-x-1 font-mono">
+    <!-- Hours -->
+    <div class="flex flex-col items-center">
+      <div class="text-5xl font-bold bg-black/80 text-cyan-400 px-4 py-3 rounded-xl shadow-lg shadow-cyan-500/20 border border-cyan-500/30 glow">
+        <span class="time">00</span>
+      </div>
+      <span class="text-xs mt-1 text-cyan-300/80">HOURS</span>
+    </div>
+    
+    <!-- Colon -->
+    <span class="text-5xl font-bold text-cyan-400 mb-2 animate-pulse">:</span>
+    
+    <!-- Minutes -->
+    <div class="flex flex-col items-center">
+      <div class="text-5xl font-bold bg-black/80 text-cyan-400 px-4 py-3 rounded-xl shadow-lg shadow-cyan-500/20 border border-cyan-500/30 glow">
+        <span class="time">00</span>
+      </div>
+      <span class="text-xs mt-1 text-cyan-300/80">MINUTES</span>
+    </div>
+    
+    <!-- Colon -->
+    <span class="text-5xl font-bold text-cyan-400 mb-2 animate-pulse">:</span>
+    
+    <!-- Seconds -->
+    <div class="flex flex-col items-center">
+      <div class="text-5xl font-bold bg-black/80 text-cyan-400 px-4 py-3 rounded-xl shadow-lg shadow-cyan-500/20 border border-cyan-500/30 glow">
+        <span class="time">00</span>
+      </div>
+      <span class="text-xs mt-1 text-cyan-300/80">SECONDS</span>
+    </div>
+    
+    <!-- AM/PM -->
+    <div class="flex flex-col items-center ml-2">
+      <div class="text-2xl font-bold bg-black/80 text-purple-400 px-3 py-2 rounded-lg shadow-lg shadow-purple-500/20 border border-purple-500/30">
+        <span id="ampm">AM</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

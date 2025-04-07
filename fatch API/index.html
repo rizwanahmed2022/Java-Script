@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class="container">
+        <h1 style="text-align: center; margin-bottom: 2rem; font-weight: 600;">Weather App</h1>
+        
+        <div class="search-container">
+            <input
+                type="text"
+                name="userinput"
+                id="userinput"
+                placeholder="Enter City Name"
+                required
+            />
+            <button onclick="weather()">
+                Search
+            </button>
+        </div>
+        
+        <div id="fetching">
+            <div class="spinner"></div>
+            <span>Fetching weather data...</span>
+        </div>
+        
+        <div id="cantainer">
+            <div class="weather-header">
+                <h1 id="city" class="px-4">City</h1>
+                <h1 id="citytemp">Temp</h1>
+            </div>
+            
+            <div class="weather-details">
+                <div class="detail-card">
+                    <p>Wind</p>
+                    <p id="wind">Wind speed</p>
+                </div>
+                <div class="detail-card">
+                    <p>Description</p>
+                    <p id="des">Weather conditions</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Your existing JS file -->
+    <script src="script.js"></script>
+</body>
+</html>

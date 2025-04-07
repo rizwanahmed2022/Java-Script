@@ -10,7 +10,7 @@ try {
 try {
         let x = prompt("Enter Your Age")
         x = Number.parseInt(x)
-        if (x > 40) {
+        if (x > 40 || x < 10) {
                 throw Error("Your Not Able To Apply")
                 // throw SyntaxError("this is new error")
         }
@@ -22,4 +22,6 @@ try {
         console.log(error.name)
         console.log(error.message)
 
+}finally{
+        console.log("This is finnaly which always run")
 }
